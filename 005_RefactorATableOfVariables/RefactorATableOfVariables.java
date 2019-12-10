@@ -1,7 +1,7 @@
 public class RefactorATableOfVariables {
     public static void main(String [] args) {
         // The following variables are for rows 2-5 and columns 1-3. row = r and column = c.
-        // Initial variables for the first row.
+        // Initial variables.
         int c1r2 = 1;
         int c1r3 = 2;
         int c1r4 = 3;
