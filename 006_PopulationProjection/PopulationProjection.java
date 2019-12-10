@@ -40,6 +40,6 @@ public class PopulationProjection {
         immigrations = year * 31_536_000 / 45;
         populationChange = births + immigrations - deaths;
         System.out.println("The population after " + year + " years is " + (currentPopulation + populationChange) + ".");
-        // My population projection isn't exactly correct because the numbers don't take into account a variety of factors, such as emigration or undocumented immigrants.
+        // My population projection isn't exactly correct because the numbers don't take into account some factors, such as emigration.
     }
 }
