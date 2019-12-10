@@ -1,6 +1,6 @@
 public class SummationOfASeries {
     public static void main(String[] args) {
-        // Make a variable for each number we are supposed to add.
+        // Make variables for each number we are supposed to add.
         int num1 = 1;
         int num2 = 2;
         int num3 = 3;
