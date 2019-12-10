@@ -11,7 +11,7 @@ public class ATableOfVariables {
         int c3r5 = 64;
         // This makes the top row of the table.
         System.out.println("a\ta^2\ta^3");
-        // The following lines print the rest of the table.
+        // This prints the rest of the table.
         System.out.println("1\t" + c2r2 + "\t" + c3r2);
         System.out.println("2\t" + c2r3 + "\t" + c3r3);
         System.out.println("3\t" + c2r4 + "\t" + c3r4);
