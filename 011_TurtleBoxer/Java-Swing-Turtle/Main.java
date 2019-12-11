@@ -7,7 +7,7 @@ public class Main {
   public static void main(String[] args) {
     // Instantiate a 220x220 world.
     World world = new World(220, 220);
-    // Instantiate a turtle.
+    // Instantiate a turtle called "turtle."
     Turtle turtle = new Turtle(world);
     turtle.setShellColor(Color.magenta);
     turtle.setPenColor(Color.pink);
