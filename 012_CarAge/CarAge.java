@@ -8,7 +8,7 @@ public class CarAge {
         Car five = new Car(2014, 10_000, "Turbo Car Company 2", "Old Turbo Car", true);
         // Set the current year in a variable.
         int year = 2019;
-        // Create a calculator.
+        // Create a new calculator.
         ReturningCalculator calculator = new ReturningCalculator();
         // Age of car one.
         int oneAge = calculator.integerSubtractor(year, one.year);
