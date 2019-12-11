@@ -9,7 +9,7 @@ public class CarBuilderOne {
         String model;
         int year;
         int miles;
-        // Ask the user to enter the make, model, year and mileage.
+        // Ask the user to enter the make, model, year and mileage of a car.
         System.out.print("What make of car would you like? ");
         make = scanner.nextLine().toUpperCase();
         System.out.print("What model of car would you like? ");
