@@ -1,6 +1,6 @@
 public class ComputeAnExpressionTwo {
     public static void main(String[] args) {
-        // Make a calculator.
+        // Create a calculator.
         ReturningCalculator calculator = new ReturningCalculator();
         // Compute the equation.
         double answer = calculator.divider(calculator.doubleSubtractor(calculator.doubleMultiplier(9.5, 4.5), calculator.doubleMultiplier(2.5, 3)), calculator.doubleSubtractor(45.5,3.5));
