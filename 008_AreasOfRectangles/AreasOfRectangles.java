@@ -6,7 +6,7 @@ public class AreasOfRectangles {
         double inToCm;
         double cmToYards;
         double mmToYards;
-        // Calculate the area of each of the following rectangles.
+        // Calculate the area of the following rectangles.
         // Rectangle 1
         double rec1AreaInInches = 5.5 * 7.8;
         System.out.println("The area of the rectangle is " + rec1AreaInInches + " inches.");
