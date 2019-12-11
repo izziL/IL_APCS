@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class LoanCalculator {
     public static void main(String[] args) {
-        // Make a scanner.
+        // Create a scanner.
         Scanner scanner = new Scanner(System.in);
         // Make variables for the inputs and calculations.
         double principleBalance;
