@@ -4,7 +4,7 @@ public class SimpleCounterButAForLoop {
         for (int i = 0; i <= 300; i++) {
             System.out.println(i);
         }
-        // Print out numbers from 300 to 0. inclusive.
+        // Print out numbers from 300 to 0, inclusive.
         for (int i = 300; i >= 0; i--) {
             System.out.println(i);
         }
