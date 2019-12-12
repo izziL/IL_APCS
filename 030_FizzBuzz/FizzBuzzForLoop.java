@@ -11,7 +11,7 @@ public class FizzBuzzForLoop {
         num = scanner.nextInt();
         // Close scanner.
         scanner.close();
-        // Count up to that number.
+        // Count up to the inputted number.
         for (int i = 1; i <= num; i++) {
             if (i % 3 == 0 && i % 5 == 0) {
                 System.out.println("Fizzbuzz");
