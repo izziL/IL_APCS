@@ -7,7 +7,7 @@ public class RPSOne {
         int computerNum;
         String computerChoice;
         // RPS rules.
-        System.out.println("HOW TO PLAY ROCK, PAPER, SCISSORS \nRock beats scissors. Scissors beats paper. Paper beats rock.");
+        System.out.println("HOW TO PLAY ROCK, PAPER, SCISSORS\nRock beats scissors. Scissors beats paper. Paper beats rock.");
         // Make a scanner.
         Scanner scanner = new Scanner(System.in);
         // Get the user's input, either rock, paper, or scissors.
