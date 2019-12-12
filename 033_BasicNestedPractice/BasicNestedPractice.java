@@ -6,7 +6,7 @@ public class BasicNestedPractice {
         String letter;
         int rows;
         int columns;
-        // Get the user inputs.
+        // Ask for the user inputs.
         Scanner scanner = new Scanner(System.in);
         System.out.print("Type in a character you want me to print out. If you type in a word, I will use the first character. ");
         letter = scanner.nextLine().trim().substring(0, 1);
