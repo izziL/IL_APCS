@@ -7,7 +7,7 @@ public class IsItLegalForYou {
         // Ask for the user's age.
         System.out.println("What is your age?");
         double age = scanner.nextDouble();
-        // Close scanner.
+        // Close the scanner.
         scanner.close();
         // Tell them what they are and aren't legally allowed to do.
         if (age >= 16) {
