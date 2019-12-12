@@ -13,7 +13,7 @@ public class SpellingBeeSimulator {
         word = scanner.nextLine();
         // Close scanner.
         scanner.close();
-        // Spell out the word.
+        // Spell out the word, putting dashes in between the letters.
         System.out.print(word.substring(0, 1).toUpperCase() + word.substring(1) + " is spelled ");
         while (currentLetterNum < word.length()) {
             System.out.print(word.substring(currentLetterNum, currentLetterNum + 1));
