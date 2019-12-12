@@ -1,6 +1,6 @@
 public class TabletopDice {
     public static void main(String[] args) {
-        // Find values for each of the dice.
+        // Generate values for each of the dice.
         int fourSide = (int) (Math.random() * 4 + 1);
         int sixSide = (int) (Math.random() * 6 + 1);
         int eightSide = (int) (Math.random() * 8 + 1);
