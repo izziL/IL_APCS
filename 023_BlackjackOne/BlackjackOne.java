@@ -50,7 +50,7 @@ public class BlackjackOne {
         if (totalPlayer == 21) {
             System.out.println("Since your total is 21, you win!");
         }
-        // If the total isn't 21, ask the player if they want to hit or stay.
+        // If the total isn't equal to 21, ask the player if they want to hit or stay.
         else {
             System.out.print("Would you like to hit or stay? Please type either \"hit\" or \"stay.\" ");
             hitOrStay = scanner.nextLine();
