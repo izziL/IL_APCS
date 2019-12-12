@@ -12,11 +12,11 @@ public class ShippingCalculator {
         weight = scanner.nextDouble();
         // Close the scanner.
         scanner.close();
-        // See if they put in a valid number.
+        // See if the input is valid.
         if (weight <= 0) {
             System.out.println("This weight is an invalid input.");
         } else if (weight > 20) {
-            System.out.println("This packag is too large to be shipped.");
+            System.out.println("This package is too large to be shipped.");
         } else {
             // Calculate and tell them how much shipping the package will cost.
             if (weight <= 1) {
