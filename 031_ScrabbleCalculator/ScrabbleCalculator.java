@@ -60,7 +60,7 @@ public class ScrabbleCalculator {
         int numZ = 0;
         // Make a scanner.
         Scanner scanner = new Scanner(System.in);
-        // Make the user enter a word.
+        // Prompt the user to enter a word.
         System.out.print("Enter a word to see what its point value is in Scrabble: ");
         word = scanner.nextLine();
         // Close scanner.
