@@ -11,7 +11,7 @@ public class AbecedarianWords {
         System.out.print("Enter a word to check and see if it is an abecedarian word: ");
         word = scanner.nextLine();
         scanner.close();
-        // Check to see whether the word is an abecedarian word. If two of the same letter are in the word next to each other, it is still abecedarian.
+        // Check to see whether the word is an abecedarian word. If two of the same letter are in the word next to each other, it is abecedarian.
         count = 1;
         while (count < word.length()) {
             if (word.substring(count, count + 1).compareToIgnoreCase(word.substring(count - 1, count)) < 0) {
