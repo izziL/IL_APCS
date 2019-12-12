@@ -5,7 +5,7 @@ public class PowerAttack {
         int monsterArmor = 11;
         int roll;
         int hit = 0;
-        // Swing until you hit the monster.
+        // Swing until the monster is hit.
         while (hit < 11) {
             // Make a random roll number.
             roll = (int) (Math.random() * 10 + 1);
