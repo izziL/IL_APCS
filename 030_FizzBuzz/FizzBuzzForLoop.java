@@ -4,7 +4,7 @@ public class FizzBuzzForLoop {
     public static void main(String[] args) {
         // Declare variables.
         int num;
-        // Make a scaner.
+        // Make a scanner.
         Scanner scanner = new Scanner(System.in);
         // Get a number from the user.
         System.out.print("Please enter a positive integer you would like to count up to. ");
