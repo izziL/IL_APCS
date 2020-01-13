@@ -1,5 +1,5 @@
 public class HelloWorldButANewMethod {
-  // Make a hello world class.
+  // Make a hello world method.
   public static void HelloWorld() {
     System.out.println("Hello World!");
   }
