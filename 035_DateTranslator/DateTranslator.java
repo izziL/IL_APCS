@@ -21,8 +21,10 @@ public class DateTranslator {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter a day: ");
         dayInput = scanner.nextInt();
+        scanner.nextLine();
         System.out.print("Enter a month: ");
         monthInput = scanner.nextInt();
+        scanner.nextLine();
         System.out.print("Enter a year: ");
         yearInput = scanner.nextInt();
         scanner.nextLine();
