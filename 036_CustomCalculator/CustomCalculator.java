@@ -62,7 +62,7 @@ public class CustomCalculator {
             scanner.nextLine();
             System.out.print("What number would you like to subtract? (subtrahend) ");
             numTwo = scanner.nextDouble();
-            System.out.println("The answer is " + subtract(numOne, numTwo));
+            System.out.println("The answer is " + subtract(numOne, numTwo) + ".");
         } else if (choice == 4) {
             System.out.print("What number would you like to divide? (dividend) ");
             numOne = scanner.nextDouble();
@@ -77,7 +77,19 @@ public class CustomCalculator {
             System.out.print("What would you like the exponent to be? ");
             numTwo = scanner.nextDouble();
             System.out.println("The answer is " + exponent(numOne, numTwo) + ".");
-        } 
+        } else if (choice == 6) {
+            System.out.print("What number would you like to take the log base 10 of? ");
+            numOne = scanner.nextDouble();
+            System.out.println("The answer is " + log(numOne) + ".");
+        } else if (choice == 7) {
+            System.out.print("What number would you like to take the natural log of? ");
+            numOne = scanner.nextDouble();
+            System.out.println("The answer is " + ln(numOne) + ".");
+        } else if (choice == 8) {
+            System.out.print("To what power would you like to raise e to? ");
+            numOne = scanner.nextDouble();
+            System.out.println("The answer is " + eToPower(numOne) + ".");
+        }
         scanner.close();
     }
 }
