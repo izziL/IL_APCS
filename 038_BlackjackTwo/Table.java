@@ -61,7 +61,7 @@ public class Table {
                 System.out.println("You tied.");
             } else {
                 System.out.println("Sorry, you lost.");
-        }
+            }
         }
         
     }
