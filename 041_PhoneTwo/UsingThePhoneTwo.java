@@ -9,8 +9,8 @@ public class UsingThePhoneTwo {
         System.out.println("Phone With New Number: " + newNumber.toString());
         System.out.println("New Phone: " + newNumber.toString());
         // Show the objects work and are different
-        System.out.println("Th original phone's number is: " + original.getNumber() + ".");
-        System.out.println("The second phone's number is: " + newNumber.getNumber() + ".");
-        System.out.println("Th new phone's number is: " + newPhone.getNumber() + ".");
+        System.out.println("You are getting a call from the original phone's number: " + original.getNumber() + ".");
+        System.out.println("You are getting a call from the second phone's number: " + newNumber.getNumber() + ".");
+        System.out.println("You are getting a call from the new phone's number: " + newPhone.getNumber() + ".");
     }
 }
