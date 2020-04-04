@@ -5,7 +5,7 @@ public class SumPositiveOrNegative {
         // Get array
         OneThousandPositiveOrNegativeInts numberArray = new OneThousandPositiveOrNegativeInts();
         int[] array = numberArray.getOneThousandPositiveOrNegativeInts();
-        // Calculate the sums of the positives and negatives
+        // Calculate the sums of the positives and negatives using a for-each loop.
         for (int number : array) {
             if (number > 0) {
                 sumOfPositives += number;
